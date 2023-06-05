@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+        max-width: 100%;
+        margin: 0 auto;
+        background: #23424a;
+        color: white;
+        padding: 50px 0;
+}
+
+.parent {
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+ 
+}
+.box {
+    border: 2px solid blue;
+}
+img {
+    border-radius: 50%;
+}
+
+/* First card */
+.child1 .daniel {
+    /* border: 2px solid red; */
+    width: 60%;
+    padding: 2.5rem;
+}
+.daniel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.display {
+    margin: .5rem;
+}
+h4, p {
+    padding: 2.5rem;
+    /* max-width: 750px;
+        margin: 0 auto;
+        margin-top: .2rem;
+        padding: 1rem 0; */
+        /* border: 2px solid red; */
+
+}
+
+/* Second card */
+.child2 .jonathan {
+    /* border: 2px solid red; */
+    width: 60%;
+    padding: 2.5rem;
+}
+.jonathan {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.display {
+    margin: .5rem;
+}
+h4, p {
+    padding: 2.5rem;
+    /* max-width: 750px;
+        margin: 0 auto;
+        margin-top: .2rem;
+        padding: 1rem 0; */
+        /* border: 2px solid red; */
+}
+
+/* third card */
+.child3 .kira {
+    /* border: 2px solid red; */
+    width: 60%;
+    padding: 2.5rem;
+}
+.kira {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.display {
+    margin: .5rem;
+}
+h4, p {
+    padding: 2.5rem;
+    /* max-width: 750px; */
+        /* margin: 0 auto; */
+        /* margin-top: .2rem; */
+        /* padding: 1rem 0; */
+        /* border: 2px solid red; */
+}
+
+/* fourth card */
+.child4 .jeanette {
+    /* border: 2px solid red; */
+    width: 60%;
+    padding: 2.5rem;
+    margin: 5rem;
+}
+.jeanette {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.display {
+    margin: .5rem;
+}
+h4, p {
+    padding: 2.5rem;
+    
+        /* border: 2px solid red; */
+}
+
+/* fifth card */
+.child5 .patrick {
+    /* border: 2px solid red; */
+    width: 60%;
+    padding: 2.5rem;
+}
+.patrick {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.display {
+    margin: .5rem;
+}
+h4, p {
+    padding: 2.5rem;
+}
+
